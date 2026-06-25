@@ -126,7 +126,7 @@ export function initCalendar(getConfig) {
 
     const label = document.createElement('div');
     label.className = 'week-label';
-    label.textContent = `${officeShift.name} — Oficina`;
+    label.textContent = `${officeShift.name} `;
 
     const daysRow = document.createElement('div');
     daysRow.className = 'week-days';
